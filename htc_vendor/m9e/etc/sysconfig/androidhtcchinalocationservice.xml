@@ -1,0 +1,3 @@
+<config>
+   <allow-in-power-save package="android.htc.china.location.service" />
+</config>

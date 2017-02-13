@@ -1,0 +1,7 @@
+﻿PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/m9e/lib,system/lib)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/m9e/lib64,system/lib64)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/m9e/bin,system/bin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/m9e/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/m9e/usr,system/usr)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/m9e/xbin,system/xbin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/m9e/vendor,system/vendor)
